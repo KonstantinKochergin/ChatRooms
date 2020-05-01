@@ -1,0 +1,42 @@
+.chatCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 261px;
+    min-height: 300px;
+    max-width: 261px;
+    max-height: 300px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: -9px -9px 16px rgba(255, 255, 255, 0.5), 9px 9px 16px rgba(163, 177, 198, 0.5);
+    box-sizing: border-box;
+    padding: 15px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.chatCard:hover{
+    transform: scale(1.05);
+}
+
+.chatCard .infoButtonContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 24px;
+}
+
+.chatCard .chatTitle {
+    font-size: 2em;
+}
+
+.chatCard .membersCount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chatCard .membersCount .icon {
+    margin-right: 9px;
+}
