@@ -1,0 +1,21 @@
+.chatComponent {
+    width: 70%;
+    min-width: 810px;
+    background: #FFFAF0;
+    box-shadow: -9px -9px 16px rgba(255, 255, 255, 0.5), 9px 9px 16px rgba(163, 177, 198, 0.5);
+    border-radius: 40px;
+    padding: 32px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.head {
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 1.5em;
+}

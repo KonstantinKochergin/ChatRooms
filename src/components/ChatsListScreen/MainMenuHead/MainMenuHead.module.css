@@ -1,0 +1,54 @@
+.mainMenuHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.createRoomPopUp {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: blur 0.3s forwards;
+    background-color: rgba(31, 27, 36, 0.45);
+    align-items: center;
+    justify-content: center;
+}
+
+.popUpClosed {
+    display: none;
+}
+
+.popUpOpened {
+    display: flex;
+}
+
+@keyframes blur {
+    0% {
+        backdrop-filter: blur(0px);
+    }
+    20% {
+        backdrop-filter: blur(2px);
+    }
+    40% {
+        backdrop-filter: blur(4px);
+    }
+    60% {
+        backdrop-filter: blur(6px);
+    }
+    80% {
+        backdrop-filter: blur(8px);
+    }
+    100% {
+        backdrop-filter: blur(10px);
+    }
+}

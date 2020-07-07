@@ -1,10 +1,10 @@
 import React from 'react'
-import './ChangeThemeButton.css'
+import styles from './ChangeThemeButton.module.css'
 
 const ChangeThemeButton = props => {
     return (
-        <div className="changeThemeButton">
-            <img src={require('../../media/night-icon.png')} alt=""/>
+        <div className={styles.changeThemeButton}>
+            <img src={require('../../media/night-icon.svg')} alt=""/>
         </div>
     )
 }

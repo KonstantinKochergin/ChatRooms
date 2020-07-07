@@ -1,21 +1,21 @@
 import React from 'react'
-import './Button.css'
+import styles from './Button.module.css'
 
 const Button = props => {
 
-    let classes = ['button']
+    let classes = [styles.button]
 
     if (props.buttonTheme === 'white') {
-        classes = ['button', 'whiteButton']
+        classes = [styles.button, styles.whiteButton]
     }
     else if (props.buttonTheme === 'blue') {
-        classes = ['button', 'blueButton']
+        classes = [styles.button, styles.blueButton]
     }
 
     return (
-        <div className={classes.join(' ')} style={props.style}>
+        <button className={classes.join(' ')} style={props.style} onClick={props.onClick}>
             {props.children}
-        </div>
+        </button>
     )
 }
 

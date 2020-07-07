@@ -16,10 +16,10 @@
 }
 
 .chatCard:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
-.chatCard .infoButtonContainer {
+.infoButtonContainer {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -27,16 +27,16 @@
     margin-bottom: 24px;
 }
 
-.chatCard .chatTitle {
+.chatTitle {
     font-size: 2em;
 }
 
-.chatCard .membersCount {
+.membersCount {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.chatCard .membersCount .icon {
+.icon {
     margin-right: 9px;
 }

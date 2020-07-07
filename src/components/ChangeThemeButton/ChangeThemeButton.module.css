@@ -1,0 +1,8 @@
+.changeThemeButton {
+    cursor: pointer;
+}
+
+.changeThemeButton img {
+    width: 40px;
+    height: 40px;
+}

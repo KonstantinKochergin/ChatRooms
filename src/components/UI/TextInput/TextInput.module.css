@@ -1,0 +1,21 @@
+.textInput {
+    border: 2px solid #A3B1C6;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Roboto';
+    font-size: 1em;
+}
+
+.bigTextInput {
+    font-size: 2em;
+}
+
+.textInput:focus {
+    outline: none;
+}

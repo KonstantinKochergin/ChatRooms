@@ -1,0 +1,50 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch .slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #C1C5CB;
+    border-radius: 50px;
+    transition: all .3s ease-in-out;
+}
+
+.switch .slider .checkRound {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 5px solid #C1C5CB;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+
+.switch input:checked + .slider {
+    background-color: #3A8FFE;;
+}
+
+.switch input:checked + .slider .checkRound {
+    transform: translateX(40px);
+    border: 5px solid #3A8FFE;
+}
+

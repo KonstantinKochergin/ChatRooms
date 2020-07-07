@@ -1,20 +1,20 @@
 import React from 'react'
-import './ChatCard.css'
-import InfoButton from '../../InfoButton/InfoButton'
+import styles from './ChatCard.module.css'
+import InfoButton from './../../UI/InfoButton/InfoButton'
 
 const ChatCard = props => {
     return (
-        <div className="chatCard">
-            <div className="top">
-                <div className="infoButtonContainer">
+        <div className={styles.chatCard}>
+            <div className={styles.top}>
+                <div className={styles.infoButtonContainer}>
                     <InfoButton />
                 </div>
-                <div className="chatTitle">
+                <div className={styles.chatTitle}>
                     {props.chatTitle}
                 </div>
             </div>
-            <div className="membersCount">
-                <div className="icon">
+            <div className={styles.membersCount}>
+                <div className={styles.icon}>
                     <img src={require('../../../media/members-icon.png')} alt=""/>
                 </div>
                 {props.membersCount}
