@@ -1,0 +1,13 @@
+.textInput {
+    flex-grow: 1;
+    outline: none;
+    border: none;
+    background: rgba(58, 143, 254, 0.1);
+    border-radius: 34px;
+    box-sizing: border-box;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1em;
+}

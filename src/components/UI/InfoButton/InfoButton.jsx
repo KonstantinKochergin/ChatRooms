@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './InfoButton.module.css'
+import PropTypes from 'prop-types'
 
 const InfoButton = props => {
     return (
@@ -10,6 +11,10 @@ const InfoButton = props => {
             </svg>
         </div>
     )
+}
+
+InfoButton.propTypes = {
+    onClick: PropTypes.func.isRequired
 }
 
 export default InfoButton

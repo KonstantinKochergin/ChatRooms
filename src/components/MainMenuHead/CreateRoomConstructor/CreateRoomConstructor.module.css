@@ -1,0 +1,122 @@
+.createRoomConstructorContainer {
+    
+}
+
+.cross {
+    position: relative;
+    left: 100%;
+}
+
+.createRoomContructor {
+    display: flex;
+    width: 50%;
+    min-width: 860px;
+    flex-direction: column;
+    background-color: #FFFAF0;
+    box-shadow: -9px -9px 16px rgba(255, 255, 255, 0.3), 9px 9px 16px rgba(163, 177, 198, 0.5);
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    color: #222B45;
+}
+
+.inputLabel {
+    width: 40%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row1 {
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 45px;
+}
+
+.settings {
+    margin-top: 70px;
+    width: 45%;
+}
+
+.ageCheck {
+    margin-top: 35px;
+}
+
+.settingRow {
+    align-items: center;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1200px) {
+    .createRoomConstructorContainer {
+        font-size: 12px;
+        width: 600px;
+    }
+    
+    .createRoomContructor {
+        width: 100%;
+        min-width: initial;
+    }
+
+    .createRoomContructor {
+        width: 100%;
+    }
+
+    .settings {
+        width: 60%;
+        margin-top: 40px;
+    }
+
+    .ageCheck {
+        margin-top: 20px;
+    }
+
+    .buttons {
+        margin-top: 18px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .inputLabel {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .settings {
+        margin-top: 40px;
+    }
+
+    .ageCheck {
+        margin-top: 20px;
+    }
+
+    .buttons {
+        margin-top: 18px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+}
+

@@ -1,0 +1,28 @@
+.container {
+    display: inline-flex;
+    max-width: 40%;
+    flex-direction: column;
+}
+
+.myMessage {
+    align-self: flex-start;
+    align-items: flex-start;
+}
+
+.otherMessage {
+    align-self: flex-end;
+    align-items: flex-end;
+}
+
+.ownerName {
+    margin-bottom: 8px;
+}
+
+.text {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #C0DEF5;
+    border-radius: 14px;
+}

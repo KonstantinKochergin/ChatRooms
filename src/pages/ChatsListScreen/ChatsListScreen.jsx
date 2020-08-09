@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import styles from './ChatsListScreen.module.css'
 import ChatsListComponent from '../../components/ChatsListComponent/ChatsListComponent'
-import MainMenuHead from './MainMenuHead/MainMenuHead'
+import MainMenuHead from '../../components/MainMenuHead/MainMenuHead'
 
 class ChatsListScreen extends Component {
 

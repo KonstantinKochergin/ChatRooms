@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './ChatCard.module.css'
-import InfoButton from './../../UI/InfoButton/InfoButton'
+import InfoButton from '../UI/InfoButton/InfoButton'
 
 const ChatCard = props => {
     return (
@@ -15,7 +15,7 @@ const ChatCard = props => {
             </div>
             <div className={styles.membersCount}>
                 <div className={styles.icon}>
-                    <img src={require('../../../media/members-icon.png')} alt=""/>
+                    <img src={require('../../media/members-icon.png')} alt=""/>
                 </div>
                 {props.membersCount}
             </div>

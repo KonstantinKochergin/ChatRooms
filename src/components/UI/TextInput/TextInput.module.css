@@ -1,4 +1,5 @@
 .textInput {
+    flex-grow: 1;
     border: 2px solid #A3B1C6;
     box-sizing: border-box;
     border-radius: 16px;

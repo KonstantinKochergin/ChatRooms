@@ -4,7 +4,7 @@ import styles from './UserAvatar.module.css'
 const UserAvatar = props => {
     return (
         <div className={styles.userAvatar}>
-            <img src={require('../../../../media/empty-avatar.svg')} alt=""/>
+            <img src={require('../../../media/empty-avatar.svg')} alt=""/>
         </div>
     )
 }

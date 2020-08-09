@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './TextInput.module.css'
+import PropTypes from 'prop-types'
 
 const TextInput = props => {
 
@@ -10,8 +11,18 @@ const TextInput = props => {
     }
 
     return (
-        <input type="text" name="" id="" className={classes.join(' ')} style={{...props.style}}/>
+        <input type="text" 
+            className={classes.join(' ')} 
+            style={{...props.style}} 
+            value={props.value}
+            onChange={props.onChange}/>
     )
+}
+
+TextInput.propTypes = {
+    style: PropTypes.object,
+    onChange: PropTypes.func.isRequired,
+    value: PropTypes.string.isRequired
 }
 
 export default TextInput

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import ChatsListScreen from './components/ChatsListScreen/ChatsListScreen'
-import ChatScreen from './components/ChatScreen/ChatScreen'
+import ChatsListScreen from './pages/ChatsListScreen/ChatsListScreen'
+import ChatScreen from './pages/ChatScreen/ChatScreen'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 
